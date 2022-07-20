@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MaskDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mz-Rf-WHo">
+                                <rect key="frame" x="20" y="818" width="188" height="45"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="Z1d-F4-xnZ"/>
+                                    <constraint firstAttribute="height" constant="45" id="iuj-Og-jpv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Lock">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="UnlockPressed" destination="BYZ-38-t0r" eventType="touchDown" id="9Be-1W-Ap6"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dp6-vC-lBC">
+                                <rect key="frame" x="20" y="44" width="374" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEx-tz-WQp">
+                                <rect key="frame" x="216" y="818" width="178" height="45"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="178" id="8sm-Lt-oDW"/>
+                                    <constraint firstAttribute="height" constant="45" id="eDy-aY-gRW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Unlock">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="lockPressed" destination="BYZ-38-t0r" eventType="touchDown" id="gon-1W-30f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oEx-tz-WQp" secondAttribute="bottom" constant="33" id="2ev-hP-twv"/>
+                            <constraint firstItem="Dp6-vC-lBC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3gg-x7-Gw7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oEx-tz-WQp" secondAttribute="trailing" constant="20" id="6b2-gY-U4o"/>
+                            <constraint firstItem="9mz-Rf-WHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Asd-t5-KnG"/>
+                            <constraint firstItem="9mz-Rf-WHo" firstAttribute="top" secondItem="Dp6-vC-lBC" secondAttribute="bottom" constant="6" id="Hin-dR-v0j"/>
+                            <constraint firstItem="Dp6-vC-lBC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Hzf-Q3-aIj"/>
+                            <constraint firstItem="oEx-tz-WQp" firstAttribute="leading" secondItem="9mz-Rf-WHo" secondAttribute="trailing" constant="8" symbolic="YES" id="Pnh-Bv-bJ8"/>
+                            <constraint firstItem="9mz-Rf-WHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Tz6-gh-d63"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oEx-tz-WQp" secondAttribute="trailing" constant="20" id="UmM-fY-MVh"/>
+                            <constraint firstItem="9mz-Rf-WHo" firstAttribute="top" secondItem="Dp6-vC-lBC" secondAttribute="bottom" constant="6" id="Wjk-ga-Rln"/>
+                            <constraint firstItem="9mz-Rf-WHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cqk-pW-YxG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dp6-vC-lBC" secondAttribute="trailing" constant="20" id="kvi-6U-HWP"/>
+                            <constraint firstItem="oEx-tz-WQp" firstAttribute="leading" secondItem="9mz-Rf-WHo" secondAttribute="trailing" constant="8" symbolic="YES" id="nxy-Lh-uRx"/>
+                            <constraint firstItem="oEx-tz-WQp" firstAttribute="top" secondItem="Dp6-vC-lBC" secondAttribute="bottom" constant="6" id="qWO-3H-pBd"/>
+                            <constraint firstAttribute="bottom" secondItem="9mz-Rf-WHo" secondAttribute="bottom" constant="33" id="yV2-R6-gSj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="UnlockBtn" destination="oEx-tz-WQp" id="1hs-ju-YaV"/>
+                        <outlet property="imageview" destination="Dp6-vC-lBC" id="stW-8G-f84"/>
+                        <outlet property="lockBtn" destination="9mz-Rf-WHo" id="zL3-1b-HG9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298.55072463768118" y="15.401785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

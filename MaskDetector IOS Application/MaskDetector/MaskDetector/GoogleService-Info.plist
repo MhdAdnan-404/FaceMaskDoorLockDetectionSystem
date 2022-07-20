@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>466562864131-omu3slh0l93uvo9t7j7kj2j13f0l0s40.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.466562864131-omu3slh0l93uvo9t7j7kj2j13f0l0s40</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDrhdY1huqij8tKIEvycKlbXsiiUV-S_fQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>466562864131</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.adnon.MaskDetector</string>
+	<key>PROJECT_ID</key>
+	<string>maskdetector-ae670</string>
+	<key>STORAGE_BUCKET</key>
+	<string>maskdetector-ae670.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:466562864131:ios:83f923a56bc5f407fe2a36</string>
+</dict>
+</plist>
