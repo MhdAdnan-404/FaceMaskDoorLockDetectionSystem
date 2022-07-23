@@ -10,7 +10,7 @@ person that is not wearing the masek and send it to the data base on the cloud, 
 and downloads the picture and displays it on the Phone wich will give a notificaion that there is a person that is not wearing a mask.
 
 
-<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/pictuers/2.PNG" width="500" height="550">
+<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/pictuers/2.PNG" width="700" height="550">
 
 
 <img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/pictuers/3.PNG" width="500" height="550">
