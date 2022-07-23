@@ -19,4 +19,4 @@ and downloads the picture and displays it on the Phone wich will give a notifica
 <img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/pictuers/5.PNG" width="296" height="637">
 
 
-<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/pictuers/node%20mcupng.png" width="500" height="550">
+<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/pictuers/node%20mcupng.png" width="742" height="642">
