@@ -59,7 +59,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/node%20mcupng.png" alt="drawing" width="200"/>
+<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/node%20mcupng.png" alt="drawing" width="500"/>
 </p>
 
 <p>The system uses a NodeMCU that communicates with the python programe through the web and locks and unlocks the door.</p>
