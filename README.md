@@ -51,7 +51,10 @@
 
 <img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/5.PNG" alt="drawing" width="200"/>
 <img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/3.PNG" alt="drawing" width="200"/>  
+<img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/2.PNG" alt="drawing" width="200"/>  
 </p>
+
+
 
 <h2 align="left"> The Hardware </h2>
 <p>
