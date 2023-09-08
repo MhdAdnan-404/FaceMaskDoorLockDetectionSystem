@@ -71,11 +71,5 @@
 <p align="right">(<a href="#Project">back to top</a>)</p>
 
 
-## License
-
-See `LICENSE.md` for more information.
-
-<p align="right">(<a href="#Project">back to top</a>)</p>
-
 
 
