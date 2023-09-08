@@ -50,8 +50,6 @@
 <p align="center">
 
 <img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/5.PNG" alt="drawing" width="200"/>
-</p>
-<p align="center">
 <img src="https://github.com/404dn/FaceMaskDoorLockDetectionSystem/blob/master/Pictuers/3.PNG" alt="drawing" width="200"/>  
 </p>
 
