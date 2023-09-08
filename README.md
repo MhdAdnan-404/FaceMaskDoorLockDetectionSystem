@@ -19,7 +19,6 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
     </li>
-    <li><a href="#features">Features</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
