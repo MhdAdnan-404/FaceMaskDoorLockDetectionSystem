@@ -17,13 +17,7 @@ signal_sent = True
 previous_lbl = ""
 
 config = {
-    "apiKey": "AIzaSyA73JS0J5IWRCcV6csYcLKA0PtPxmbcXDc",
-    "databaseURL": "https://maskdetector-ae670-default-rtdb.firebaseio.com/",
-    "authDomain": "maskdetector-ae670.firebaseapp.com",
-    "projectId": "maskdetector-ae670",
-    "storageBucket": "maskdetector-ae670.appspot.com",
-    "messagingSenderId": "466562864131",
-    "appId": "1:466562864131:web:2ee00bd44f3af648fe2a36"
+   
 }
 
 firebase = pyrebase.initialize_app(config)
